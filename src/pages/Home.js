@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 // const wordle_API_URL = 'https://api.frontendexpert.io/api/fe/wordle-words';
 
 const temp_api = 'https://type.fit/api/quotes'
-/* 
-function Home() {
+
+/* function Home() {
 
   const [quotes, setQuote] = useState('');
 
@@ -36,7 +36,6 @@ function Home() {
   useEffect(() => {
     getQuote();
   }, []);
-
 
   return (
     <div className="Home">

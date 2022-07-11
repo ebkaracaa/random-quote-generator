@@ -10,6 +10,7 @@ body {
 .container {
   margin: 1rem;
   text-align: center;
+  
 }
 
 .nav {
@@ -54,6 +55,7 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  
   
 }
 
