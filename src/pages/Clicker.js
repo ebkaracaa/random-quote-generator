@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 
+function initialCount(){
+  return 31
+}
+
 const Clicker = () => {
-  const [count, setCount] = useState(31);
+  const [count, setCount] = useState( initialCount);
 
   function incrementCount() {
     setCount(count + 1) // neden 2 kere çağırınca yine 1 artıyor.. TAMAM DECREASE'DE  HALLETTİM İBRET OLSUN DİYE KALSIN.
