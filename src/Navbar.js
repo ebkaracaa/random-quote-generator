@@ -6,7 +6,7 @@ export default function Navbar() {
         Random Quote Generator
       </Link>
       <ul>
-        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/clicker">Clicker Button</CustomLink>
       </ul>
     </nav>
   )
